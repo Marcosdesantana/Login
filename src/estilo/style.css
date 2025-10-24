@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imagem/ft-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    width: 100vw;
+    height:calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login{
+    background-color:transparent;
+    width: 500px;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: none;
+    border-radius: 8px;
+    width: 450px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+a{
+    text-decoration: none;
+}
