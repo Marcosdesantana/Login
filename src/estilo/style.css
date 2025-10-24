@@ -35,7 +35,7 @@ main{
 
 #login{
     background-color:transparent;
-    width:100%;
+    width:90%;
     height:80%;
     display: flex;
     flex-direction: column;
@@ -54,6 +54,7 @@ input{
     width:200px;
     padding: 10px;
     margin: 5px 0px;
+    color: blue;
 }
 
 input:hover{
