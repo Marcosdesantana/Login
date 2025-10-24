@@ -23,12 +23,12 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(151, 8, 151);
 }
 
 main{
     width: 100vw;
-    height:100vh;
+    height:calc(100vh - 150px);
     display: flex;
     justify-content: center;
     align-items: center;
