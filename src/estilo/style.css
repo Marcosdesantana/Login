@@ -27,7 +27,7 @@ header{
 
 main{
     width: 100vw;
-    height:calc(100vh - 50px);
+    height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,10 +51,10 @@ form{
 input{
     border: none;
     border-radius: 8px;
-    width:200px;
+    width:270px;
     padding: 10px;
     margin: 5px 0px;
-    color: blue;
+    color:red;
 }
 
 input:hover{
