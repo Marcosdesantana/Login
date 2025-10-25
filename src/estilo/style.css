@@ -22,8 +22,16 @@ header{
     position: sticky;
 }
 
+.fa-bars{
+    display: block;
+}
+
 .fa-solid:hover{
     cursor: pointer;
+}
+
+#lista-header{
+    display: none;
 }
 
 #menu{
@@ -90,13 +98,17 @@ input:hover{
 }
 
 #sing{
-    background-color:rgb(165, 3, 122) ;
+    background-color :rgb(165, 3, 122);
     color: white;
 }
 
 a{
     text-decoration: none;
     color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 span{
@@ -108,4 +120,81 @@ h3{
     text-align: center;
     margin-bottom: 10px;
     padding: 10px;
+}
+
+#welcome{
+    display: none;
+}
+
+@media screen and (min-width:992px) and (max-width:1550px){
+
+    #login{
+        background-color: rgba(2, 73, 82, 0.685);
+        width: 35%;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    #welcome{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.685);
+        height:80%;
+        width: 55%;
+        color: white;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .logo-wel{
+        padding: 10px;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .text-center{
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    #redes ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+
+    #lista-header{
+        display: block;
+    }
+
+    #lista-header ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        font-size: 1.2em;
+    }
+
+    #lista-header ul li:hover{
+        color: rgb(8, 70, 243);
+        background-color: transparent;
+    }
+
+     #redes ul{
+        font-size: 1.4em;
+     }
+
+    #redes ul li:hover{
+       color: rgb(8, 70, 243);
+       background-color: transparent; 
+    }
+
+   .logo2{
+    display: none;
+   }
+    
+    
 }
