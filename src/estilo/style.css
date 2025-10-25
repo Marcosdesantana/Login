@@ -143,6 +143,10 @@ h3{
         border-radius: 10px 0px 0px 10px;
     }
 
+    #welcome div{
+        margin: 25px auto;
+    }
+
     .logo-wel{
         padding: 10px;
     }
@@ -207,14 +211,80 @@ h3{
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-   }  
+   } 
+   
+   #login{
+    height: 65%;
+   }
 
    #welcome{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:space-around;
     background-color: rgba(0, 0, 0, 0.367);
+    height: 65%;
    }
+
+   #welcome h2 , h1 , span{
+    font-size: 3em;
+   }
+
+    #welcome h3{
+        font-size: 2em;
+    }
+
+     #welcome p{
+        font-size: 1.5em;
+    }
+
+    .text-center{
+        width: 60%;
+        height: 40%;
+        padding: 10px;
+    }
+
+    #redes{
+        font-size: 1.5em;
+    }
+
+    #welcome .logo-wel{
+        margin-left: 40px;
+    }
+
+    #formulario{
+        width: 90%;
+    }
+
+    #formulario #sing, #log{
+        width: 90%;
+        margin:10px 0px;
+        padding: 15px;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    a{
+        font-size: 1.3em;
+    }
+
+    header h2 , span{
+        font-size: 2em;
+    }
+
+    header li{
+        font-size: 1.3em;
+    }
+
+    #welcome div{
+        margin: auto;
+    }
+
+
     
 }
