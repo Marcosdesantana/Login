@@ -16,9 +16,24 @@
        </div>
 
        <div>
-        <i class="fa-solid fa-bars"></i>
+        <i onclick="menu()" class="fa-solid fa-bars"></i>
        </div>
     </header>
+
+    <section id="menu">
+        <div>
+            <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>Services</li>
+               <li>Contact</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Setting</h3>
+        </div>
+    </section>
 
     <main>
         <section id="login">
@@ -30,8 +45,8 @@
 
            <div>
                <form>
-                   <input type="button" value="Sing Up">
-                   <input type="button" value="Log in">
+                   <input id="sing" type="button" value="Sing Up">
+                   <input id="log" type="button" value="Log in">
                </form>
            </div>
 
@@ -41,6 +56,8 @@
 
         </section>
     </main>
+    
+    <script src="src/scripts/script.js"></script>
     
 </body>
 </html>
