@@ -29,13 +29,9 @@ header{
 #menu{
     background-color:white;
     width: 80%;
-    height:calc(100vh - 50px);
-    opacity: 1;
+    height:calc(100vh - 150px);
     position: fixed;
     display: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 li{
