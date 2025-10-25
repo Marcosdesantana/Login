@@ -50,7 +50,7 @@ li{
     text-align: center;
 }
 
-h3:hover , li:hover{
+#menu h3:hover , li:hover{
     background-color:rgba(128, 128, 128, 0.718);
     cursor: pointer;
 }
@@ -196,5 +196,25 @@ h3{
     display: none;
    }
     
+    
+}
+
+@media screen and (min-width:1550px){
+
+   body{
+    background-image: url(../imagem/fundo-alta-resolução.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+   }  
+
+   #welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.367);
+   }
     
 }
