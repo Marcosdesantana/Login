@@ -12,3 +12,9 @@ function menu(){
   
     }
 }
+
+function responsiv(){
+  let menu = document.getElementById('menu')
+  menu.style.display = 'none'
+  n = 0
+}
