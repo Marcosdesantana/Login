@@ -37,7 +37,7 @@ header{
 #menu{
     background-color:white;
     width: 80%;
-    height:calc(100dvh - 100px);
+    height:calc(100dvh - 50px);
     position: fixed;
     display: none;
     border-radius: 0px 10px 10px 0px;
